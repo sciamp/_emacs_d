@@ -41,3 +41,10 @@
 (setq mouse-autoselect-window t)
 
 ;;;; MOUSECONF end
+
+;;;; INTERFACE
+
+(scroll-bar-mode)
+(tool-bar-mode)
+
+;;;; INTERFACE end
