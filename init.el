@@ -16,6 +16,7 @@
  '(ecb-auto-activate t)
  '(ecb-auto-compatibility-check nil)
  '(ecb-layout-name "ecb-layout-directories.methods")
+ '(ecb-primary-secondary-mouse-buttons (quote mouse-1--mouse-2))
  '(ecb-show-sources-in-directories-buffer (quote always))
  '(ecb-source-path (quote ("~/")))
  '(ecb-tip-of-the-day nil)
