@@ -1,3 +1,14 @@
+;;;; IDO
+
+(require 'ido)
+
+(ido-mode (quote both))
+(setq ido-enable-flex-matching t)
+(setq ido-ignore-buffers '("\\` " "\\*"))
+(setq ido-ignore-files '("\\`CVS/" "\\`#" "\\`.#" "\\`\\.\\./" "\\`\\./"))
+
+;;;; IDO end
+
 ;;;; ECB
 
 (load-file "~/.emacs.d/include/cedet-1.0.1/common/cedet.el")
