@@ -1,0 +1,3 @@
+[submodule "include/rinari"]
+	path = include/rinari
+	url = git://github.com/eschulte/rinari.git
