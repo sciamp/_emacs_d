@@ -28,3 +28,16 @@
  )
 
 ;;;; ECB end
+
+;;;; MOUSECONF
+
+(global-set-key [mouse-4] 'scroll-down-one)
+(global-set-key [mouse-5] 'scroll-up-one)
+(defun scroll-up-one () (interactive) (scroll-up 1))
+(defun scroll-down-one () (interactive) (scroll-down 1))
+
+(windmove-default-keybindings)
+
+(setq mouse-autoselect-window t)
+
+;;;; MOUSECONF end
