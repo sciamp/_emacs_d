@@ -67,3 +67,10 @@
 (sweyla858470)
 
 ;;;; INTERFACE end
+
+;;;; RINARI
+
+(add-to-list 'load-path "~/.emacs.d/include/rinari")
+(require 'rinari)
+
+;;;; RINARI end
