@@ -47,4 +47,12 @@
 (scroll-bar-mode)
 (tool-bar-mode)
 
+(add-to-list 'load-path "~/.emacs.d/include/color-theme-6.6.0/")
+(require 'color-theme)
+
+(add-to-list 'load-path "~/.emacs.d/themes/")
+
+(require 'sweyla980673)
+(sweyla980673)
+
 ;;;; INTERFACE end
