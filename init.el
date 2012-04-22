@@ -52,7 +52,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/themes/")
 
-(require 'sweyla980673)
-(sweyla980673)
+(require 'sweyla858470)
+(sweyla858470)
 
 ;;;; INTERFACE end
