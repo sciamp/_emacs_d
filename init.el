@@ -26,7 +26,8 @@
   ;; If there is more than one, they won't work right.
  '(ecb-auto-activate t)
  '(ecb-auto-compatibility-check nil)
- '(ecb-layout-name "ecb-layout-directories.methods")
+ '(ecb-layout-name "left15")
+ '(ecb-layout-window-sizes (quote (("left15" (ecb-directories-buffer-name 0.3273809523809524 . 0.6888888888888889) (ecb-methods-buffer-name 0.3273809523809524 . 0.28888888888888886)))))
  '(ecb-primary-secondary-mouse-buttons (quote mouse-1--mouse-2))
  '(ecb-show-sources-in-directories-buffer (quote always))
  '(ecb-source-path (quote ("~/")))
