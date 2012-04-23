@@ -75,3 +75,13 @@
 (require 'rinari)
 
 ;;;; RINARI end
+
+;;;; YASNIPPET
+
+(add-to-list 'load-path "~/.emacs.d/include/yasnippet")
+(require 'yasnippet)
+(setq yas/snippet-dirs 
+      '("~/.emacs.d/include/yasnippet/snippets" "~/.emacs.d/include/yasnippet/extras/imported"))
+(yas/global-mode 1)
+
+;;;; YASNIPPET end

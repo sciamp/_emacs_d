@@ -1,3 +1,6 @@
 [submodule "include/rinari"]
 	path = include/rinari
 	url = git://github.com/eschulte/rinari.git
+[submodule "include/yasnippet"]
+	path = include/yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git
