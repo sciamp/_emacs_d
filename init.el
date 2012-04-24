@@ -97,3 +97,9 @@
 
 ;;;; RHTMLMODE end
 
+;;;; TABBARMODE
+
+(add-to-list 'load-path "~/.emacs.d/include/tab-bar")
+(require 'tabbar)
+;;(tabbar-mode)
+;;;;
