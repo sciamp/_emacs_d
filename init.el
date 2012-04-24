@@ -79,3 +79,11 @@
 (require 'rinari)
 
 ;;;; RINARI end
+
+;;;; TEXTMATE
+
+(add-to-list 'load-path "~/.emacs.d/include/textmate")
+(require 'textmate)
+(textmate-mode)
+
+;;;; TEXTMATE end
