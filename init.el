@@ -65,11 +65,11 @@
 
 (add-to-list 'load-path "~/.emacs.d/include/color-theme-6.6.0/")
 (require 'color-theme)
+(color-theme-jsc-light)
+;; (add-to-list 'load-path "~/.emacs.d/themes/")
 
-(add-to-list 'load-path "~/.emacs.d/themes/")
-
-(require 'sweyla858470)
-(sweyla858470)
+;; (require 'sweyla858470)
+;; (sweyla858470)
 
 ;;;; INTERFACE end
 
