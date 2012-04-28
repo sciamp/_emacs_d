@@ -73,6 +73,14 @@
 
 ;;;; INTERFACE end
 
+;;;; RVM
+
+(add-to-list 'load-path "~/.emacs.d/include/rvm")
+(require 'rvm)
+(rvm-use-default)
+
+;;;; RVM end
+
 ;;;; RINARI
 
 (add-to-list 'load-path "~/.emacs.d/include/rinari")
@@ -114,3 +122,14 @@
 (ac-config-default)
 
 ;;;; AUTOCOMPLETEMODE end
+
+;;;; RSENSE
+
+;; WARNING!! you need to install rsense
+;; http://cx4a.org/software/rsense/manual.html#Installation
+
+(setq rsense-home (expand-file-name "~/Sources/rsense-0.3"))
+(add-to-list 'load-path (concat rsense-home "/etc"))
+(require 'rsense)
+
+;;;; RSENSE end

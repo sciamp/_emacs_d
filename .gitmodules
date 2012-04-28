@@ -7,3 +7,6 @@
 [submodule "include/rhtml"]
 	path = include/rhtml
 	url = git://github.com/eschulte/rhtml.git
+[submodule "include/rvm"]
+	path = include/rvm
+	url = git://github.com/senny/rvm.el.git
