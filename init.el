@@ -102,4 +102,15 @@
 (add-to-list 'load-path "~/.emacs.d/include/tab-bar")
 (require 'tabbar)
 ;;(tabbar-mode)
-;;;;
+
+;;;; TABBARMODE end
+
+;;;; AUTOCOMPLETEMODE
+
+(add-to-list 'load-path "~/.emacs.d/include/auto-complete")
+;;(add-to-list 'ac-dictionary-directory "~/.emacs.d/include/auto-complete/dict")
+(require 'auto-complete-config)
+;;(require 'auto-complete)
+(ac-config-default)
+
+;;;; AUTOCOMPLETEMODE end
