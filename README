@@ -1,0 +1,14 @@
+== WTF ==
+
+This is my .emacs.d, hope someone will find it useful.
+Please feel free to send me some feedback!
+
+== INSTALL ==
+
+(i)	git clone this!
+(ii) 	mv it to ~/.emacs.d
+(iii) 	git submodule init && git submodule update
+(iv)	cd include/rinari && git submodule init && git submodule update
+(v)	cd include/wrap-region && git submodule init && git submodule update
+(vi)	[THIS STEP ONLY IF YOU WANT YASNIPPET BUNDLES] 
+	cd include/yasnippet && git submodule init && git submodule update
