@@ -10,3 +10,7 @@
 [submodule "include/rvm"]
 	path = include/rvm
 	url = git://github.com/senny/rvm.el.git
+[submodule "include/yasnippet"]
+	path = include/yasnippet
+	url = https://github.com/capitaomorte/yasnippet.git
+
