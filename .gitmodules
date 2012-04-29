@@ -14,3 +14,6 @@
 	path = include/yasnippet
 	url = https://github.com/capitaomorte/yasnippet.git
 
+[submodule "include/wrap-region"]
+	path = include/wrap-region
+	url = git://github.com/rejeep/wrap-region.git
