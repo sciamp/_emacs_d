@@ -132,6 +132,9 @@
 (add-to-list 'load-path (concat rsense-home "/etc"))
 (require 'rsense)
 
+;; can't find out how to have this in english!
+;; (setq rsense-rurema-home "~/Sources/rsense-0.3/refm_1_9_2")
+
 ;; Complete by C-c .
 ;; (add-hook 'ruby-mode-hook
 ;;           (lambda ()
