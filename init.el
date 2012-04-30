@@ -157,3 +157,27 @@
 (yas/global-mode 1)
 
 ;;;; YASNIPPET end
+
+;;;; WRAP
+
+(add-to-list 'load-path "~/.emacs.d/include/wrap-region")
+(require 'wrap-region)
+
+(wrap-region-global-mode)
+
+;; (wrap-region-add-wrapper "$" "$")
+;; (wrap-region-add-wrapper "{-" "-}" "#")
+;; (wrap-region-add-wrapper "/" "/" nil 'ruby-mode)
+;; (wrap-region-add-wrapper "/* " " */" "#" '(java-mode javascript-mode css-mode))
+;; (wrap-region-add-wrapper "`" "`" nil '(markdown-mode ruby-mode))
+
+;;;; WRAP end
+
+;;;; SCIAMPUTILS
+
+(add-to-list 'load-path "~/.emacs.d/include/utils")
+(require 'sciamp-utils)
+
+(global-set-key [(meta shift l)] 'sciamp-select-current-line)
+
+;;;; SCIAMPUTILS end
