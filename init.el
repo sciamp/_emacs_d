@@ -71,6 +71,8 @@
 ;; (require 'sweyla858470)
 ;; (sweyla858470)
 
+(show-paren-mode t)
+
 ;;;; INTERFACE end
 
 ;;;; RVM
@@ -179,5 +181,17 @@
 (require 'sciamp-utils)
 
 (global-set-key [(meta shift l)] 'sciamp-select-current-line)
+
+(global-set-key [(control <)] 'beginning-of-line)
+(global-set-key [(control >)] 'end-of-line)
+(global-set-key [(control meta <)] 'beginning-of-buffer)
+(global-set-key [(control meta >)] 'end-of-buffer)
+
+;; press super after control!
+;; maybe we should find some better shortcuts!
+(global-set-key [(super control <)] 'sciamp-select-to-the-beginning-of-line)
+(global-set-key [(super control >)] 'sciamp-select-to-the-end-of-line)
+(global-set-key [(super control meta <)] 'sciamp-select-to-the-beginning-of-buffer)
+(global-set-key [(super control meta >)] 'sciamp-select-to-the-end-of-buffer)
 
 ;;;; SCIAMPUTILS end

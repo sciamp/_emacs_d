@@ -5,4 +5,28 @@
   (end-of-line)
   (setq mark-active t))
 
+(defun sciamp-select-to-the-end-of-line ()
+  (interactive)
+  (push-mark (point))
+  (end-of-line)
+  (setq mark-active t))
+
+(defun sciamp-select-to-the-beginning-of-line ()
+  (interactive)
+  (push-mark (point))
+  (beginning-of-line)
+  (setq mark-active t))
+
+(defun sciamp-select-to-the-end-of-buffer ()
+  (interactive)
+  (push-mark (point))
+  (end-of-buffer)
+  (setq mark-active t))
+
+(defun sciamp-select-to-the-beginning-of-buffer ()
+  (interactive)
+  (push-mark (point))
+  (beginning-of-buffer)
+  (setq mark-active t))
+
 (provide 'sciamp-utils)
