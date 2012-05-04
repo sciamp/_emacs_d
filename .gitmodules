@@ -17,3 +17,9 @@
 [submodule "include/wrap-region"]
 	path = include/wrap-region
 	url = git://github.com/rejeep/wrap-region.git
+[submodule "include/yaml-mode"]
+	path = include/yaml-mode
+	url = git://github.com/yoshiki/yaml-mode.git
+[submodule "include/markdown-mode"]
+	path = include/markdown-mode
+	url = git://jblevins.org/git/markdown-mode.git
