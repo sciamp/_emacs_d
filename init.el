@@ -214,3 +214,10 @@
    (cons '("\\.md" . markdown-mode) auto-mode-alist))
 
 ;;;; MARKDOWNMODE end
+
+;;;; DEFAULWINDOWSIZE
+
+(add-to-list 'default-frame-alist '(height . 50))
+(add-to-list 'default-frame-alist '(width . 100))
+
+;;;; DEFAULWINDOWSIZE end
