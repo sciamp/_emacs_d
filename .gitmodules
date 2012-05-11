@@ -23,3 +23,6 @@
 [submodule "include/markdown-mode"]
 	path = include/markdown-mode
 	url = git://jblevins.org/git/markdown-mode.git
+[submodule "include/zencoding"]
+	path = include/zencoding
+	url = git://github.com/rooney/zencoding.git

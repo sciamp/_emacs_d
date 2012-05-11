@@ -221,3 +221,10 @@
 (add-to-list 'default-frame-alist '(width . 100))
 
 ;;;; DEFAULWINDOWSIZE end
+
+;;;; ZENCODING
+
+(add-to-list 'load-path "~/emacs.d/inlcude/zencoding")
+(require 'zencoding-mode)
+
+;;;; ZENCODING end
